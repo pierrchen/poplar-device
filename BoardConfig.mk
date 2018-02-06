@@ -31,7 +31,7 @@ TARGET_NO_BOOTLOADER := false
 TARGET_BOOTLOADER_IS_2ND = true
 TARGET_NO_KERNEL := false
 
-BOARD_KERNEL_CMDLINE := androidboot.hardware=poplar androidboot.selinux=permissive mmz=ddr,0,0,60M firmware_class.path=/system/etc/firmware
+BOARD_KERNEL_CMDLINE := androidboot.hardware=poplar androidboot.selinux=permissive mmz=ddr,0,0,60M firmware_class.path=/vendor/firmware
 
 TARGET_NO_RECOVERY := true
 TARGET_NO_RADIOIMAGE := true
