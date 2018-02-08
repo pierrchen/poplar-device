@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0-impl
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/bluetooth/bcm/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+	$(LOCAL_PATH)/../poplar-kernel/modules/btmtk_usb.ko:system/lib/modules/btmtk_usb.ko
 
 # bt hal blob copy from vendor
-$(call inherit-product, vendor/broadcom/poplar/bt-hal-blob.mk)
+$(call inherit-product, vendor/mediatek/poplar/bt-hal-blob.mk)

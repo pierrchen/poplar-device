@@ -20,7 +20,6 @@ BOARD_BACKUPIMAGE_PARTITION_SIZE := 838860800
 BOARD_FLASH_BLOCK_SIZE := 512
 
 BOARD_HAVE_BLUETOOTH := true
-BOARD_HAVE_BLUETOOTH_BCM := true
 
 ################################################################################
 ##  Stable configuration definitions
@@ -63,11 +62,10 @@ USE_OPENGL_RENDERER := true
 # wpa_supplicant is used for WiFi STA, hostapd is used for WiFi SoftAP
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
-BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_mtk
 BOARD_HOSTAPD_DRIVER := NL80211
-BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
-BOARD_WLAN_DEVICE := bcmdhd
-
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_mtk
+BOARD_WLAN_DEVICE := MediaTek
 
 TARGET_BOARD_PLATFORM := poplar
 TARGET_BOOTLOADER_BOARD_NAME := poplar

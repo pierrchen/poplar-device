@@ -49,8 +49,8 @@ PRODUCT_PACKAGES += \
 # include the feature .mk file here
 include ${LOCAL_PATH}/feature_graphic.mk
 include $(LOCAL_PATH)/feature_audio.mk
-#include $(LOCAL_PATH)/feature_bluetooth.mk
-#include $(LOCAL_PATH)/feature_wifi.mk
+include $(LOCAL_PATH)/feature_bluetooth.mk
+include $(LOCAL_PATH)/feature_wifi.mk
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
