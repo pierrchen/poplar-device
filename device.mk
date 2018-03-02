@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
 # feature media.codec
 ## runtime configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/etc/media_codecs.xml:system/etc/media_codecs.xml \
+    $(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
 

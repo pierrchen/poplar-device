@@ -224,7 +224,7 @@
             "name": "media.codec",
             "runtime_configs": [
                 {
-                    "src": "$(LOCAL_PATH)/etc/media_codecs.xml"
+                    "src": "$(LOCAL_PATH)/media/media_codecs.xml"
                 },
                 {
                     "src": "frameworks/av/media/libstagefright/data/media_codecs_google_video.xml"
