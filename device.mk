@@ -36,6 +36,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=512k \
     dalvik.vm.heapmaxfree=2m \
+    ro.sf.lcd_density=160 \
+    ro.opengles.version=196609 \
 
 
 # feature keymaster
